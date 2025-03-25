@@ -12,7 +12,7 @@ Any changes committed to `main/docs` (and only here) will be automatically deplo
 `npm install tailwindcss @tailwindcss/cli`
 
 2. Start the Tailwind CLI build process:
-`npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch`
+`npx @tailwindcss/cli -i ./docs/input.css -o ./docs/output.css --watch`
 
 This will convert any Tailwind classes made in `index.html` to pure css in `output.css`. For website to run successfully, only `output.css` is necessary.
 
