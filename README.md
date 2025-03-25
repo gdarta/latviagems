@@ -6,7 +6,7 @@ Any changes committed to `main/docs` (and only here) will be automatically deplo
 
 ## Setting up environment with Tailwind
 
-### [Tailwind CSS](https://tailwindcss.com/)
+### Documentation: [Tailwind CSS](https://tailwindcss.com/)
 
 1. Open the project folder in terminal and install the Tailwind CLI: 
 `npm install tailwindcss @tailwindcss/cli`
@@ -19,4 +19,6 @@ This will convert any Tailwind classes made in `index.html` to pure css in `outp
 ## Creating a new HTML file
 
 If you create a new file, do not forget to add 
-`<link href="output.css" rel="stylesheet">` in the `<head></head>` tag.
+`<link href="output.css" rel="stylesheet">` in the `<head></head>` tag. 
+
+All of the HTML files should be under `/docs`.
