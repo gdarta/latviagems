@@ -21,6 +21,6 @@ Tutorial: https://tailwindcss.com/docs/installation/tailwind-cli
 ## Creating a new HTML file
 
 If you create a new file, do not forget to add 
-`<link href="output.css" rel="stylesheet">` in the `<head></head>` tag. 
+`<link href="../output.css" rel="stylesheet">` in the `<head></head>` tag. 
 
-All of the HTML files should be under `/docs`.
+All of the HTML files should be under `/docs/[name of section]/index.html`.
